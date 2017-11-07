@@ -58,4 +58,4 @@
 
 
 /*Filter styles*/
-.invert { filter: invert(100%); }
+.invert { filter: brightness(0) invert(1); }
