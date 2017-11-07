@@ -1,19 +1,22 @@
+
 .social_wrapper {
   height: auto;
   margin-top: 100px;
   padding-right: 25px;
   // border: 1px solid yellow;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
   color: white;
   font-size: 12px;
+  font-family: "regular";
 
   .hash {
-    // border-bottom: 1px solid grey;
+    border-bottom: 1px solid grey;
     // background-color: grey;
     height: 0.5px;
     width: 20px;
+    padding-right: 20px;
   }
 
   .title {
@@ -24,40 +27,74 @@
 
   }
 
-  .follow {
-    width: 14%;
-    // border: 1px solid limegreen;
+  .redbrain {
+    // border: 1px solid green;
+    padding-left: 40px;
+    padding-top: 30px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    .follow-button {
-      border: 1px solid red;
-      height: 40px;
-      width: 40px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .redbull {
+      img {
+        height: 50px;
+        width: 75px;
+      }
+    }
+
+    .brainfarm {
+      img {
+        height: 150px;
+        width: 150px;
+        padding-left: 20px;
+      }
     }
   }
 
-  .watch {
-    width: 14%;
-    margin-top: 2.5px;
-    // border: 1px solid limegreen;
+  .follow-share {
+    // border: 1px solid red;
+    width: 50%;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 
-    .watch-button {
-      border: 1px solid red;
-      height: 40px;
-      width: 40px;
+    .follow {
+      width: 33%;
+      // border: 1px solid limegreen;
       display: flex;
-      justify-content: center;
+      flex-direction: row-reverse;
+      justify-content: space-between;
       align-items: center;
+
+      .follow-button {
+        border: 1px solid red;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .share {
+      width: 33%;
+      margin-top: 2.5px;
+      // border: 1px solid limegreen;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+
+      .share-button {
+        border: 1px solid red;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 }

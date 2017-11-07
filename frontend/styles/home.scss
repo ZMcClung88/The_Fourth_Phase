@@ -1,3 +1,17 @@
+@import "fonts";
+
+.regular{
+  font-family: "regular";
+}
+
+.condensed{
+  font-family: "condensed";
+}
+
+.bold{
+  font-family: "bold";
+}
+
 .main_wrapper {
   background: url('/frontend/media/img/SERFAS-travis-rice-interview-alaska-snowboarding-enviro.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -5,6 +19,7 @@
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  font-family: "regular";
 
   .main_content {
     display: flex;

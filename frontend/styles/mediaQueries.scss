@@ -2,4 +2,67 @@
   #hide {
     display: none;
   }
+
+  ////// HEADER DIRECTIVE ////////
+  .header {
+
+    .left_header {
+      width: 50%;
+      // border: 1px solid red;
+
+      img {
+        height: 20px;
+        width: 40px;
+      }
+
+      h1 {
+        font-size: 9px;
+        text-align: center;
+      }
+    }
+
+    .right_header {
+      margin-right: 15px;
+    }
+  }
+
+
+
+
+  ////// SOCIAL DIRECTIVE ////////
+  .social_wrapper {
+    // border: 1px solid green;
+    padding-top: 300px;
+
+     .redbrain {
+      //  border: 1px solid yellow;
+     }
+
+     .follow-share {
+      //  border: 1px solid yellow;
+
+       .follow {
+         height: 50px;
+         width: 100px;
+
+         .follow-button {
+           width: 100px;
+         }
+       }
+
+       .share {
+        //  border: 1px solid blue;
+       }
+     }
+  }
+
+  ////// HOME VIEW ////////
+  .main_wrapper {
+
+    .main_content {
+      padding-top: 300px;
+    }
+  }
+
+
 }
