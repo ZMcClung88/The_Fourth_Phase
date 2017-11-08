@@ -20,6 +20,11 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
     $("#menu-modal").show();
   })
 
+  $("#menu-close").on('click', function() {
+    $("#main_wrapper").show();
+    $("#menu-modal").hide();
+  })
+
   $("#buy-button").on('mouseover', function() {
     $(this).css({
       "background-color": "transparent",

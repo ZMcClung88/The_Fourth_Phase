@@ -110,11 +110,21 @@
 .menu-modal {
   height: 100vh;
   width: 100vw;
-  background-color: black;
+  background-color: rgbd(0,0,0, 0.8);
+  background: radial-gradient(ellipse at center,#080f16 0,#111c27 100%);
   display: none;
   color: white;
   font-family: adriane,serif;
   font-size: 30px;
+
+  #hamburger {
+    display: none;
+  }
+
+  #menu-close {
+    height: 50px;
+    width: 50px;
+  }
 
   .main_content {
     display: flex;
