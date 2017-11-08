@@ -65,11 +65,11 @@
     }
   }
   .footer_wrapper {
-    width: 50%;
+    width: 48%;
     // border: 1px solid yellow;
     display: flex;
     position: absolute;
-    margin-top: -40px;
+    margin-top: -70px;
     margin-left: 50px;
     color: lightgrey;
     font-size: 12px;
@@ -79,6 +79,7 @@
     .links {
       width: 100%;
       display: flex;
+      // border: 1px solid green;
       // flex-direction: row;
 
       #sound-off {
@@ -86,8 +87,8 @@
       }
 
       ul {
-        // border: 1px solid green;
-        width: 45%;
+        // border: 1px solid blue;
+        width: 55%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -134,7 +135,7 @@
     // border: 2px solid green;
     color: white;
     padding-top: 200px;
-    padding-bottom: 250px;
+    padding-bottom: 277px;
     text-align: center;
 
     ul {
