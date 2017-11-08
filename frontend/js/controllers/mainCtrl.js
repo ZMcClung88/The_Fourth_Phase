@@ -1,6 +1,20 @@
 angular.module('myApp').controller('mainCtrl', function($scope) {
   $scope.test = "controller test is working";
 
+  let myAudio = document.getElementById("audio");
+
+  $("#sound-on").on("click", function() {
+    audio.pause();
+    $(this).hide();
+    $("#sound-off").show();
+  });
+
+  $("#sound-off").on("click", function() {
+    audio.play();
+    $(this).hide();
+    $("#sound-on").show();
+  })
+
   $("#buy-button").on('mouseover', function() {
     $(this).css({
       "background-color": "transparent",
@@ -25,6 +39,8 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
   }),
 
   $('#watch-button').on('click', function(){
+
+      audio.pause();
 
       let overlay = $('<div/>').css({
         'width':'100%',
@@ -61,7 +77,8 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
 
 
       $(overlay).on('click', function(){
-        overlay.remove()
+        overlay.remove();
+        audio.play();
       })
 
     })
