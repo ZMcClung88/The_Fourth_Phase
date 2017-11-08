@@ -47,12 +47,23 @@
   }
 
   .right_header {
+    border: 1px solid lightgrey;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+  }
+
+  .right_header:hover {
     border: 1px solid white;
     height: 50px;
     width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
   }
 }
 
