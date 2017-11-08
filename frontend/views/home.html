@@ -1,13 +1,30 @@
-<navlink-directive></navlink-directive>
-<div class="main_wrapper">
+
+<div class="main_wrapper" id="main_wrapper">
+  <navlink-directive id="navlinks"></navlink-directive>
   <audio autoplay loop id="audio">
     <source src="frontend/media/audio/Untitled.mov" type="video/mp4">
     <source src="frontend/media/audio/Untitled.mov" type="video/ogg">
     Your browser does not support the video tag.
   </audio>
-  <header-directive></header-directive>
+
+  <div class="header">
+    <div class="left_header">
+      <ul>
+        <li><img src="frontend/media/img/logo_tfp_dark_large.png" class="invert" alt=""></li>
+        <li><div class="dash"></div></li>
+        <li><h1>AVAILABLE NOW</h1></li>
+      </ul>
+    </div>
+
+    <div class="right_header" id="right_header">
+      <ul>
+        <li><i class="fa fa-bars fa-2x" aria-hidden="true"></i></li>
+        <div class="blank"></div>
+      </ul>
+    </div>
+  </div>
   <!-- <background-directive></background-directive> -->
-  <div class="main_content">
+  <div class="main_content" id="main_content">
     <div class="logo"><img src="frontend/media/img/logo_tfp_dark_large.png" class="invert" alt=""></div>
     <div class="buy-button" id="buy-button"><h1>BUY THE FILM</h1></div>
     <div class="watch-button" id="watch-button"><h1>WATCH TRAILER</h1></div>
@@ -23,5 +40,41 @@
       </ul>
     </div>
   </div>
+</div>
 
+<div class="menu-modal" id="menu-modal">
+  <navlink-directive id="navlinks"></navlink-directive>
+  <div class="header">
+    <div class="left_header">
+      <ul>
+        <li><img src="frontend/media/img/logo_tfp_dark_large.png" class="invert" alt=""></li>
+        <li><div class="dash"></div></li>
+        <li><h1>AVAILABLE NOW</h1></li>
+      </ul>
+    </div>
+    <div class="right_header" id="right_header">
+      <ul>
+        <li><i class="fa fa-bars" aria-hidden="true"></i></li>
+        <div class="blank"></div>
+      </ul>
+    </div>
+  </div>
+  <div class="main_content" id="main_content">
+    <ul>
+      <li>RIDERS</li>
+      <li>CREW</li>
+      <li>PURCHASE</li>
+    </ul>
+  </div>
+
+  <div class="footer_wrapper">
+    <div class="links">
+      <ul>
+        <li><img src="frontend/media/img/2000px-Speaker_Icon.svg.png" class="invert" id="sound-on" alt=""><img src="frontend/media/img/2000px-Mute_Icon.svg.png" class="invert" id="sound-off" alt=""></li>
+        <li>Your Privacy Rights</li>
+        <li>Terms of Use</li>
+        <li>Press Room</li>
+      </ul>
+    </div>
+  </div>
 </div>

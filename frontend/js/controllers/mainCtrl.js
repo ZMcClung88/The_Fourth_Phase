@@ -15,6 +15,11 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
     $("#sound-on").show();
   })
 
+  $("#right_header").on("click", function() {
+    $("#main_wrapper").hide();
+    $("#menu-modal").show();
+  })
+
   $("#buy-button").on('mouseover', function() {
     $(this).css({
       "background-color": "transparent",
