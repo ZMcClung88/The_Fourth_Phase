@@ -91,11 +91,6 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
         audio.play();
       })
 
-    }),
-
-    $("#crew-button").on("mouseover", function() {
-      console.log("works");
-      $(this).css("background-color", "red")
     })
 
 
