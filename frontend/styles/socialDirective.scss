@@ -1,7 +1,7 @@
 
 .social_wrapper {
   height: auto;
-  margin-top: 70px;
+  margin-top: 80px;
   // margin-bottom: -50px;
   padding-right: 25px;
   // border: 1px solid yellow;
@@ -22,7 +22,7 @@
 
   .title {
     // border: 1px solid blue;
-    width: 65%;
+    width: 80%;
     display: flex;
     justify-content: flex-end;
 
@@ -31,7 +31,7 @@
   .redbrain {
     // border: 1px solid green;
     padding-left: 40px;
-    padding-top: 30px;
+    // padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,6 +41,7 @@
       img {
         height: 50px;
         width: 125px;
+        padding-bottom: 25px;
       }
     }
 
@@ -49,14 +50,18 @@
         height: 150px;
         width: 150px;
         padding-left: 20px;
+        padding-bottom: 25px;
       }
     }
   }
 
   .follow-share {
     // border: 1px solid red;
-    width: 50%;
+    width: 100%;
+    // margin-top: -25px;
+    // margin-right: %;
     display: flex;
+    position: fixed;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
@@ -71,8 +76,9 @@
 
       .follow-button {
         border: 1px solid red;
-        height: 40px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
+        margin-right: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -94,8 +100,9 @@
 
       .share-button {
         border: 1px solid red;
-        height: 40px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
+        margin-right: 5%;
         display: flex;
         justify-content: center;
         align-items: center;

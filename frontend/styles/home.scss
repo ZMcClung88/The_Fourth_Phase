@@ -21,6 +21,12 @@
   height: 100vh;
   font-family: "regular";
 
+  .header {
+    position: fixed;
+  }
+
+
+
   .main_content {
     display: flex;
     flex-direction: column;
@@ -69,7 +75,7 @@
     // border: 1px solid yellow;
     display: flex;
     position: absolute;
-    margin-top: -70px;
+    margin-top: -80px;
     margin-left: 50px;
     color: lightgrey;
     font-size: 12px;
@@ -88,8 +94,10 @@
 
       ul {
         // border: 1px solid blue;
-        width: 55%;
+        width: 25%;
+        margin-top: 20px;
         display: flex;
+        position: fixed;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -106,6 +114,99 @@
       }
     }
   }
+
+  .team {
+    // border: 1px solid green;
+    margin-top: -26px;
+
+    .riders {
+      font-family: "condensed";
+      // border: 1px solid yellow;
+      height: 50vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background: url('/frontend/media/img/riderstease_bg (1).jpg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+      img {
+        height: 100px;
+        width: 620px;
+        // border: 2px solid orange;
+        margin-left: 175px;
+      }
+
+      button {
+        height: 50px;
+        width: 175px;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        border: 1px solid white;
+        background-color: white;
+      }
+
+      #riders-button {
+        margin-top: -30px;
+        margin-left: 425px;
+      }
+
+      #riders-button:hover {
+        background-color: red;
+        border: 1px solid red;
+        color: white;
+      }
+    }
+
+    .crew {
+      // border: 1px solid red;
+      height: 50vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: url('/frontend/media/img/crewtease_bg.jpg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+      img {
+        // border: 2px solid orange;
+        height: 100px;
+        width: 475px;
+        margin-left: 300px;
+      }
+
+      button {
+        height: 50px;
+        width: 175px;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        border: 1px solid white;
+        background-color: white;
+      }
+
+      #crew-button {
+        margin-left: 225px;
+      }
+
+      .crew button:hover {
+        background-color: red;
+        border: 1px solid red;
+        color: white;
+      }
+    }
+  }
 }
 
 .menu-modal {
@@ -119,10 +220,16 @@
   font-size: 30px;
 
   #hamburger {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
     display: none;
   }
 
   #menu-close {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
     height: 50px;
     width: 50px;
   }

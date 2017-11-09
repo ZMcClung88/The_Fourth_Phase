@@ -32,7 +32,7 @@
   <social-directive></social-directive>
   <div class="footer_wrapper">
     <div class="links">
-      <ul>
+      <ul id="footer-links">
         <li><img src="frontend/media/img/2000px-Speaker_Icon.svg.png" class="invert" id="sound-on" alt=""><img src="frontend/media/img/2000px-Mute_Icon.svg.png" class="invert" id="sound-off" alt=""></li>
         <li>Your Privacy Rights</li>
         <li>Terms of Use</li>
@@ -41,11 +41,25 @@
     </div>
     <i class="fa fa-angle-down fa-5x invert" id="down-angle" aria-hidden="true"></i>
   </div>
+  <div class="team">
+    <div class="riders">
+      <!-- <h1 class="invert">RIDERS</h1> -->
+      <img src="/frontend/media/img/h_riders.png" alt="">
+      <button class="button" id="riders-button" type="button" name="button">view riders</button>
+      <!-- <button type="button" name="button"></button> -->
+    </div>
+    <div class="crew">
+      <!-- <h1>CREW</h1>
+      <button type="button" name="button"></button> -->
+      <img src="frontend/media/img/h_crew.png" alt="">
+      <button class="button" id="crew-button" type="button" name="button">view crew</button>
+    </div>
+  </div>
 </div>
 
 <div class="menu-modal" id="menu-modal">
   <navlink-directive id="navlinks"></navlink-directive>
-  <div class="header">
+  <div class="header" id="header">
     <div class="left_header">
       <ul>
         <li><img src="frontend/media/img/logo_tfp_dark_large.png" class="invert" alt=""></li>

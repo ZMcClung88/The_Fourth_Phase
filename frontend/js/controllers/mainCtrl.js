@@ -20,7 +20,7 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
     $("#menu-modal").show();
   })
 
-  $("#menu-close").on('click', function() {
+  $("#menu-close").on("click", function() {
     $("#main_wrapper").show();
     $("#menu-modal").hide();
   })
@@ -91,6 +91,12 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
         audio.play();
       })
 
+    }),
+
+    $("#crew-button").on("mouseover", function() {
+      console.log("works");
+      $(this).css("background-color", "red")
     })
+
 
 });
