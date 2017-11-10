@@ -9,6 +9,15 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
     $("#sound-off").show();
   });
 
+  $("#pageload").delay(10000).fadeOut("slow");
+  $("#main_wrapper").hide();
+  $("#main_wrapper").delay(10000).fadeIn("slow");
+
+
+  setTimeout(function(){
+    $("#audio").get(0).play();
+}, 12000);
+
   $("#sound-off").on("click", function() {
     audio.play();
     $(this).hide();
