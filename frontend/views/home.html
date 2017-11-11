@@ -14,6 +14,7 @@
 <div class="main_wrapper" id="main_wrapper">
 
   <navlink-directive id="navlinks"></navlink-directive>
+
   <audio loop id="audio">
     <source src="frontend/media/audio/Untitled.mov" type="video/mp4">
     <source src="frontend/media/audio/Untitled.mov" type="video/ogg">
@@ -58,7 +59,7 @@
     <div class="riders">
       <!-- <h1 class="invert">RIDERS</h1> -->
       <img src="/frontend/media/img/h_riders.png" alt="">
-      <button class="button" id="riders-button" type="button" name="button">view riders</button>
+      <button ui-sref="riders" class="button" id="riders-button" type="button" name="button">view riders</button>
       <!-- <button type="button" name="button"></button> -->
     </div>
     <div class="crew">
@@ -92,7 +93,7 @@
   </div>
   <div class="main_content" id="main_content">
     <ul>
-      <li>RIDERS</li>
+      <li ui-sref="riders">RIDERS</li>
       <li>CREW</li>
       <li>PURCHASE</li>
     </ul>

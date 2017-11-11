@@ -12,6 +12,10 @@
   font-family: "bold";
 }
 
+body {
+  background-color: black;
+}
+
 .main_wrapper {
   background: url('/frontend/media/img/SERFAS-travis-rice-interview-alaska-snowboarding-enviro.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -70,6 +74,7 @@
       letter-spacing: 1.5px;
     }
   }
+
   .footer_wrapper {
     width: 48%;
     // border: 1px solid yellow;

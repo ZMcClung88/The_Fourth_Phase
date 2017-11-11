@@ -9,7 +9,7 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
     $("#sound-off").show();
   });
 
-  $("#pageload").delay(5000).fadeOut("slow");
+  $("#pageload").delay(5000).fadeOut("fast");
   $("#main_wrapper").hide();
   $("#main_wrapper").delay(5000).fadeIn("slow");
 
