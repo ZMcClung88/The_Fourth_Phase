@@ -1,3 +1,30 @@
 #crew-wrapper {
   background-color: white;
+  height: 100vh;
+   #crew-header {
+     color: black;
+
+     #crew-dash {
+       border-color: black;
+     }
+   }
+
+  #crew_right_header {
+    #crew-ham {
+      color: black;
+    }
+
+    #crew-ham:hover {
+      border: 1px solid black;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+
+
+
 }

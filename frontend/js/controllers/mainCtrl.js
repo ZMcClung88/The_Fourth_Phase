@@ -9,9 +9,9 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
     $("#sound-off").show();
   });
 
-  $("#pageload").delay(5000).fadeOut("fast");
+  $("#pageload").delay(50).fadeOut("fast");
   $("#main_wrapper").hide();
-  $("#main_wrapper").delay(5000).fadeIn("slow");
+  $("#main_wrapper").delay(50).fadeIn("slow");
 
 
   setTimeout(function(){
