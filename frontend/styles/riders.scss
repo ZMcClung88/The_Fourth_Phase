@@ -18,19 +18,22 @@
       border-right: 1px solid black;
     }
 
-    .right_header {
 
+    .riders-ham:hover {
+      color: black;
+      border: 1px solid black;
     }
   }
 
   .riders_content {
-    border: 2px solid blue;
+    // border: 2px solid blue;
     display: flex;
     flex-direction: row;
     margin-right: 100px;
+    font-family: "bold";
 
     .riders-left {
-      border: 1px solid green;
+      // border: 1px solid green;
       width: 50%;
       height: 97vh;
       display: flex;
@@ -42,7 +45,7 @@
     }
 
     .riders-right {
-      border: 1px solid orange;
+      // border: 1px solid orange;
       width: 50%;
       height: 99vh;
       overflow: scroll;
@@ -50,11 +53,15 @@
       .riders {
 
         li {
-          border: 1px solid yellow;
+          // border: 1px solid yellow;
 
           img {
             height: 160px;
             width: 555px;
+            opacity: 0.7;
+          }
+          img:hover {
+            opacity: 1;
           }
         }
       }
