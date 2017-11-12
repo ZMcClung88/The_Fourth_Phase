@@ -13,4 +13,9 @@ angular.module('myApp', ['ui.router']).config(function($stateProvider, $urlRoute
       templateUrl: '/dist/views/riders.html',
       controller: 'ridersCtrl'
     })
+    .state('crew', {
+      url: '/crew',
+      templateUrl: '/dist/views/crew.html',
+      controller: 'crewCtrl'
+    })
 })

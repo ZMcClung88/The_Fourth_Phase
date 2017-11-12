@@ -58,7 +58,8 @@
           img {
             height: 160px;
             width: 555px;
-            opacity: 0.7;
+            opacity: 0.6;
+
           }
           img:hover {
             opacity: 1;
@@ -97,6 +98,102 @@
         margin-top: 20px;
         display: flex;
         position: fixed;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+        li {
+          // display: flex;
+          // flex-direction: row;
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.riders-menu-modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: green;
+  // background: radial-gradient(ellipse at center,#080f16 0,#111c27 100%);
+  display: none;
+  color: white;
+  font-family: "regular";
+  font-size: 30px;
+
+  #hamburger {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    display: none;
+  }
+
+  #menu-close {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    height: 50px;
+    width: 50px;
+  }
+
+  .main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid green;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 277px;
+    text-align: center;
+
+    ul {
+      width: 300px;
+      // border: 1px solid yellow;
+      letter-spacing: 3px;
+
+
+      li {
+        width: 100%;
+        // border: 1px solid red;
+        margin-top: 10px;
+        line-height: 50px;
+      }
+    }
+
+  }
+
+
+  .footer_wrapper {
+    width: 50%;
+    // border: 1px solid yellow;
+    display: flex;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 50px;
+    color: lightgrey;
+    font-size: 12px;
+    font-family: "regular";
+    // flex-direction: row;
+
+    .links {
+      width: 100%;
+      display: flex;
+      // flex-direction: row;
+
+      #sound-off {
+        display: none;
+      }
+
+      ul {
+        // border: 1px solid green;
+        width: 45%;
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
