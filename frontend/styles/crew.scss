@@ -29,11 +29,14 @@
 
   .crew-content {
     border: 1px solid pink;
-    background-color: lightgrey;
+    background: url('/frontend/media/img/crewtease_bg2.jpg');
+    background-position: center;
+    background-size: cover;
     margin-top: 50px;
     height: 80vh;
     display: flex;
     flex-direction: row;
+    z-index: 5;
 
     .crew-left {
       height: 100%;
@@ -78,4 +81,8 @@
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.white-filter {
+  filter: opacity(0.3);
 }
