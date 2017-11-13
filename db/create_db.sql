@@ -143,3 +143,59 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
   'http://facebook.com/jonessnowboard',
   'Through decades of standard-bearing Alaska first descents and an innate peace in the mountains, Jeremy Jones name is synonymous with big mountain snowboarding. This National Geographic Adventurer of the Year calls Truckee, California, home but his adventurous spirit has led him to the steepest, deepest peaks worldwide. Off the mountain, Jeremy works with Protect Our Winters (POW), a leading climate advocacy group for the winter sports community that he founded.'
 );
+
+INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
+  'Jon Klaczkiewicz',
+  'crew',
+  'director',
+  null,
+  'http://instagram.com/tetonjon',
+  null,
+  null,
+  null
+);
+
+INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
+  'Jimmy Chin',
+  'crew',
+  'second unit director',
+  null,
+  'http://instagram.com/jimmy_chin',
+  null,
+  null,
+  null
+);
+
+
+INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
+  'Greg Wheeler',
+  'crew',
+  'Director of Photography',
+  null,
+  'http://instagram.com/gwheels',
+  null,
+  null,
+  null
+);
+
+INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
+  'Justin - Chip - Taylor Smith',
+  'crew',
+  'Lead Editor + Cinematographer',
+  null,
+  'http://instagram.com/jtaylorsmith',
+  null,
+  null,
+  null
+);
+
+INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
+  'Stephen Scherba',
+  'crew',
+  'AC + Field Audio',
+  null,
+  'http://instagram.com/scherbas',
+  null,
+  null,
+  null
+);
