@@ -1,8 +1,11 @@
-angular.module('myApp').controller('crewCtrl', function($scope) {
-    $scope.crew = [
-      {"name": "zac"},
-      {"name": "courtney"},
-      {"name": "mayble"},
-      {"name": "izzy"},
-    ]
-  })
+angular.module('myApp').controller('crewCtrl', function($scope, mainSrvc) {
+
+  $scope.getCrew = () => {
+    mainSrvc.getCrew().then(response => {
+      $scope.crew = response
+      console.log($scope.crew);
+    })
+  };
+  $scope.getCrew();
+
+})

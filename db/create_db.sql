@@ -14,7 +14,7 @@ CREATE TABLE team (
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Travis Rice',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_travisrice.jpg',
   'https://www.instagram.com/travisrice/',
@@ -25,7 +25,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Mark Landvik',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_marklandvik.jpg',
   'http://instagram.com/marklandvik',
@@ -36,7 +36,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Eric Jackson',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_ericjackson.jpg',
   'http://instagram.com/ejackshreds',
@@ -47,7 +47,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Bryan Iguchi',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_bryaniguchi.jpg',
   'http://instagram.com/bryaniguchi',
@@ -58,7 +58,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Pat Moore',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_patmoore.jpg',
   'http://instagram.com/patmoore',
@@ -69,7 +69,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Cam Fitzpatrick',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_camfitzpatrick.jpg',
   'http://instagram.com/camfitzpatrick',
@@ -80,7 +80,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Mikkel Bang',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_mikkelbang.jpg',
   'http://instagram.com/mikkel_bang',
@@ -91,7 +91,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Shin Biyajima',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_shinbiyajima.jpg',
   'http://instagram.com/shinbiyajima',
@@ -102,7 +102,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Bode Merrill',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_bodemerrill.jpg',
   'http://instagram.com/brodiemitchell',
@@ -113,7 +113,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Ben Ferguson',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_benferguson.jpg',
   'http://instagram.com/ben_ferguson',
@@ -124,7 +124,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Victor de le rue',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_victordelerue.jpg',
   'http://instagram.com/victordelerue',
@@ -135,7 +135,7 @@ INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio)
 
 INSERT INTO team(name, position, title, bg_image, insta, twitter, facebook, bio) VALUES(
   'Jeremy Jones',
-  'team',
+  'rider',
   null,
   '/frontend/media/img/ridermenu_jeremyjones.jpg',
   'http://instagram.com/jeremyjones',

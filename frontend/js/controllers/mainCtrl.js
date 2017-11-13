@@ -88,7 +88,7 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
 
       overlay.append('<div class="trailer-modal">\
                       <iframe width="900" height="600"\
-                          src="frontend/media/vid/The Fourth Phase  OFFICIAL 4K TRAILER.mp4"\
+                          src="/img/vid/The Fourth Phase  OFFICIAL 4K TRAILER.mp4"\
                           frameborder="0"\
                           allowfullscreen>\
                       </iframe>\
