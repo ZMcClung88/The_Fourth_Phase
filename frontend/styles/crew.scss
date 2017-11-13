@@ -1,30 +1,81 @@
+#crew-header {
+  color: black;
+
+  #crew-dash {
+    border-color: black;
+  }
+}
+
+#crew_right_header {
+ #crew-ham {
+   color: black;
+ }
+}
+
+#crew_right_header:hover {
+  border: 1px solid black;
+  // background-color: red;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #crew-wrapper {
   background-color: white;
   height: 100vh;
-   #crew-header {
-     color: black;
+  padding: 40px;
 
-     #crew-dash {
-       border-color: black;
-     }
-   }
+  .crew-content {
+    border: 1px solid pink;
+    background-color: lightgrey;
+    margin-top: 50px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
 
-  #crew_right_header {
-    #crew-ham {
-      color: black;
-    }
-
-    #crew-ham:hover {
-      border: 1px solid black;
-      height: 50px;
-      width: 50px;
+    .crew-left {
+      height: 100%;
+      width: 50%;
+      border: 1px solid green;
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
+    }
+
+    .crew-right {
+      padding-top: 435px;
+      // height: 100%;
+      width: 50%;
+      border: 1px solid yellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: scroll;
+      // padding-right: 17px;
+
+      ul {
+        width: 100%;
+        border: 1px solid purple;
+
+        .crew-mem {
+          height: 198px;
+          border: 1px solid red;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+      }
+
+
     }
   }
+}
 
-
-
-
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
 }
