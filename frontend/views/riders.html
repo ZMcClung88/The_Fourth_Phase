@@ -25,8 +25,8 @@
     <div class="riders-right">
       <div class="riders">
         <ul ng-repeat="r in riders">
-          <li class="rider"><img src="{{r.bg_image}}" alt="">
-            <p>{{r.name}}</p>
+          <li class="rider"><img ui-sref="rider({id: r.product_id})" src="{{r.bg_image}}" alt="">
+            <p>{{r.product_id}}{{r.firstname}} {{r.lastname}}</p>
           </li>
         </ul>
       </div>
