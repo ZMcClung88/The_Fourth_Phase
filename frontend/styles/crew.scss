@@ -46,6 +46,19 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      text-transform: uppercase;
+
+      p {
+        font-family: "regular";
+        font-size: 14px;
+        letter-spacing: 2.0px;
+      }
+
+      h1 {
+        font-size: 24px;
+        letter-spacing: 2.0px;
+      }
+
     }
 
     .crew-right {
@@ -57,6 +70,8 @@
       justify-content: center;
       align-items: center;
       overflow: scroll;
+      text-transform: uppercase;
+      font-family: "regular";
       // padding-right: 17px;
 
       ul {
@@ -65,11 +80,17 @@
 
         .crew-mem {
           height: 198px;
-          border-bottom: 1px solid grey;
+          border-bottom: 2px solid grey;
           display: flex;
           justify-content: center;
-          align-items: center;
+          align-items: flex-start;
           flex-direction: column;
+          letter-spacing: 2px;
+
+          h1 {
+            font-size: 36px;
+            font-family: "bold";
+          }
         }
       }
 

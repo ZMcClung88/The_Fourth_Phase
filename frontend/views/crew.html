@@ -24,54 +24,14 @@
       <h1>exclusive content</h1>
     </div>
     <div class="crew-right">
-      <ul>
+      <ul >
 
-        <li>
+        <li ng-repeat="c in crew">
           <div class="crew-mem">
-            <p>Director of Everythin</p>
-            <h1>Zachary McCung</h1>
+            <p>{{c.title}}</p>
+            <h1>{{c.firstname}} {{c.lastname}}</h1>
             <div class="follow-crew">
-              <p>follow zac</p>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="crew-mem">
-            <p>Director of Everythin</p>
-            <h1>Zachary McCung</h1>
-            <div class="follow-crew">
-              <p>follow zac</p>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="crew-mem">
-            <p>Director of Everythin</p>
-            <h1>Zachary McCung</h1>
-            <div class="follow-crew">
-              <p>follow zac</p>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="crew-mem">
-            <p>Director of Everythin</p>
-            <h1>Zachary McCung</h1>
-            <div class="follow-crew">
-              <p>follow zac</p>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="crew-mem">
-            <p>Director of Everythin</p>
-            <h1>Zachary McCung</h1>
-            <div class="follow-crew">
-              <p>follow zac</p>
+              <p>follow {{c.firstname}}</p>
             </div>
           </div>
         </li>
