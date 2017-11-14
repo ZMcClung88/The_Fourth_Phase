@@ -21,17 +21,25 @@
 
     <div class="crew-left">
       <p>follow the crew for</p>
-      <h1>exclusive content</h1>
+      <h1>exclusive content.</h1>
     </div>
     <div class="crew-right">
       <ul >
 
         <li ng-repeat="c in crew">
           <div class="crew-mem">
-            <p>{{c.title}}</p>
+            <p class="crew-title">{{c.title}}</p>
             <h1>{{c.firstname}} {{c.lastname}}</h1>
             <div class="follow-crew">
-              <p>follow {{c.firstname}}</p>
+
+              <div class="follow-name" id="follow-name">
+                <i class="fa fa-plus red" aria-hidden="true"></i>
+                <p>follow {{c.firstname}}</p>
+              </div>
+
+              <div class="follow-icon" id="follow-icon">
+                <i class="fa fa-instagram fa-lg red" id="insta-icon" aria-hidden="true"></i>
+              </div>
             </div>
           </div>
         </li>

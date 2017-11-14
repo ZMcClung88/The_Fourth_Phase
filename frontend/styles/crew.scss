@@ -1,3 +1,7 @@
+.red {
+  color: #da0d5a;
+}
+
 #crew-header {
   color: black;
 
@@ -62,7 +66,7 @@
     }
 
     .crew-right {
-      padding-top: 435px;
+      padding-top: 450px;
       // height: 100%;
       width: 50%;
       // border: 1px solid yellow;
@@ -85,11 +89,61 @@
           justify-content: center;
           align-items: flex-start;
           flex-direction: column;
-          letter-spacing: 2px;
+
+          .crew-title {
+            letter-spacing: 1.5px;
+          }
 
           h1 {
             font-size: 36px;
             font-family: "bold";
+            letter-spacing: 2px;
+            margin-top: 5px;
+          }
+
+          .follow-crew {
+            // border: 1px solid black;
+            // border-top: 1px solid red;
+            // border-bottom: 1px solid red;
+            // border-left: 1px solid red;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 40%;
+            height: 40px;
+            margin-top: 4%;
+
+            .follow-name {
+              font-size: 10px;
+              font-family: "bold";
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              align-items: center;
+              // border: 1px solid green;
+              height: 100%;
+              width: 50%;
+              margin-left: 10px;
+              padding-left: 3%;
+              padding-right: 3%;
+              border-top: .5px solid #da0d5a;
+              border-bottom: .5px solid #da0d5a;
+              border-left: .5px solid #da0d5a;
+              // padding: 5px;
+
+              p {
+                padding-top: 3px;
+              }
+            }
+
+            .follow-icon {
+              height: 100%;
+              width: 40px;
+              border: 1px solid #da0d5a;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
           }
         }
       }
