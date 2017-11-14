@@ -5,6 +5,11 @@ angular.module("myApp").controller("ridersCtrl", function($scope, mainSrvc) {
     console.log("clicky click!!!!");
     $("#riders_main_wrapper").hide();
     $("#riders-menu-modal").show();
+  });
+
+  $("#riders-btn").on("click", function() {
+    $("#riders-menu-modal").hide();
+    $("#riders_main_wrapper").show();
   })
 
   $scope.getRiders = () => {

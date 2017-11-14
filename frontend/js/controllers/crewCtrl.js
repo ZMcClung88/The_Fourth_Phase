@@ -1,8 +1,18 @@
 angular.module('myApp').controller('crewCtrl', function($scope, mainSrvc) {
 
-  $("#follow-name").on("click", function() {
+  $("#crew_right_header").on("click", function() {
     console.log("working!!!!");
+    $("#crew-header").hide();
+    $("#crew-wrapper").hide();
+    $("#crew-modal").show();
   });
+
+  $("#crew-btn").on("click", function() {
+    $("#crew-modal").hide();
+    $("#crew-header").show();
+    $("#crew-wrapper").show();
+  });
+
 
   $scope.getCrew = () => {
     mainSrvc.getCrew().then(response => {
