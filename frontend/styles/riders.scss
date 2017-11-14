@@ -42,6 +42,17 @@
       flex-direction: column;
       text-transform: uppercase;
 
+      p {
+        font-family: "regular";
+        font-size: 14px;
+        letter-spacing: 2.0px;
+      }
+
+      h1 {
+        font-size: 24px;
+        letter-spacing: 2.0px;
+      }
+
     }
 
     .riders-right {
@@ -53,17 +64,37 @@
       .riders {
 
         li {
-          // border: 1px solid yellow;
+          // border: 1px solid red;
+          height: 160px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
 
           img {
-            height: 160px;
+            height: 100%;
             width: 555px;
             opacity: 0.6;
+            z-index: auto;
 
           }
           img:hover {
             opacity: 1;
           }
+
+          p {
+            // position: absolute;
+            z-index: 1;
+            margin-top: -90px;
+            font-family: "condensed";
+            font-size: 34px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+
         }
       }
     }

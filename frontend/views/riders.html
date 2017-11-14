@@ -24,15 +24,10 @@
 
     <div class="riders-right">
       <div class="riders">
-        <ul>
-          <li><img src="/img/img/ridermenu_marklandvik.jpg" alt=""></li>
-          <li><img src="/img/img/ridermenu_marklandvik.jpg" alt=""></li>
-          <li><img src="/img/img/ridermenu_marklandvik.jpg" alt=""></li>
-          <li><img src="/img/img/ridermenu_marklandvik.jpg" alt=""></li>
-          <li><img src="/img/img/ridermenu_marklandvik.jpg" alt=""></li>
-          <li><img src="/img/img/ridermenu_marklandvik.jpg" alt=""></li>
-          <li><img src="/img/img/ridermenu_marklandvik.jpg" alt=""></li>
-
+        <ul ng-repeat="r in riders">
+          <li class="rider"><img src="{{r.bg_image}}" alt="">
+            <p>{{r.name}}</p>
+          </li>
         </ul>
       </div>
     </div>
