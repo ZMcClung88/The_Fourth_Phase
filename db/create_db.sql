@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS team;
 
 CREATE TABLE team (
-  product_id serial primary key,
+  id serial primary key,
   firstName varchar(50),
   lastName varchar(50),
   position varchar(10),

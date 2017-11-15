@@ -1,0 +1,49 @@
+.single_rider_wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  color: white;
+
+   img {
+     height: 100%;
+     width: 100%;
+     position: relative;
+   }
+
+   .single_rider_content {
+     position: absolute;
+     // border: 1px solid red;
+     height: 100vh;
+     width: 100vw;
+     margin-top: -100vh;
+     display: flex;
+     flex-direction: column;
+     font-family: "bold";
+     // align-items: center;
+     // justify-content: center;
+
+     .rider_info {
+       // border: 1px solid green;
+       display: flex;
+
+       .rider_name {
+         // border: 1px solid blue;
+         width: 60%;
+         font-size: 86px;
+         display: flex;
+         flex-direction: column;
+         margin-top: 30%;
+         padding-left: 10%;
+         text-transform: uppercase;
+
+         h1 {
+           letter-spacing: 8px;
+         }
+       }
+
+       .follow_rider {
+         // border: 1px solid yellow;
+       }
+     }
+   }
+}

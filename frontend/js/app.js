@@ -15,8 +15,8 @@ angular.module('myApp', ['ui.router']).config(function($stateProvider, $urlRoute
     })
     .state('rider', {
       url: '/rider/:id',
-      templateUrl: 'views/rider.html',
-      contoller: 'riderCtrl'
+      templateUrl: 'views/singleRider.html',
+      controller: 'singleRiderCtrl'
     })
     .state('crew', {
       url: '/crew',

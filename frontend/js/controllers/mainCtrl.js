@@ -14,9 +14,9 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
   $("#main_wrapper").delay(50).fadeIn("slow");
 
 
-  setTimeout(function(){
-    $("#audio").get(0).play();
-}, 7500);
+//   setTimeout(function(){
+//     $("#audio").get(0).play();
+// }, 7500);
 
   $("#sound-off").on("click", function() {
     audio.play();
@@ -32,6 +32,11 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
   $("#menu-close").on("click", function() {
     $("#main_wrapper").show();
     $("#menu-modal").hide();
+  })
+
+  $("#home-btn").on("click", function() {
+    $("#menu-modal").hide();
+    $("#main_wrapper").show();
   })
 
   $("#buy-button").on('mouseover', function() {
