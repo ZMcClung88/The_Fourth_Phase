@@ -1,6 +1,6 @@
 angular.module('myApp').directive('backgroundDirective', function() {
   return {
     restrict: 'E',
-    templateUrl: '/views/directives/backgroundDirective.html'
+    templateUrl: '/dist/views/directives/backgroundDirective.html'
   }
 })

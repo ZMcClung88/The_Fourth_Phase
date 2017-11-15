@@ -5,26 +5,26 @@ angular.module('myApp', ['ui.router']).config(function($stateProvider, $urlRoute
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: '/views/home.html',
+      templateUrl: '/dist/views/home.html',
       controller: 'mainCtrl'
     })
     .state('riders', {
       url: '/riders',
-      templateUrl: '/views/riders.html',
+      templateUrl: '/dist/views/riders.html',
       controller: 'ridersCtrl'
     })
     .state('rider', {
       url: '/rider/:id',
-      templateUrl: 'views/singleRider.html',
+      templateUrl: '/dist/views/singleRider.html',
       controller: 'singleRiderCtrl'
     })
     .state('crew', {
       url: '/crew',
-      templateUrl: '/views/crew.html',
+      templateUrl: '/dist/views/crew.html',
       controller: 'crewCtrl'
     })
     .state('purchase', {
       url: '/purchase',
-      templateUrl: '/views/purchase.html'
+      templateUrl: '/dist/views/purchase.html'
     })
 })
