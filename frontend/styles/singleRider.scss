@@ -144,3 +144,32 @@
      }
    }
 }
+
+.single_rider_bio {
+  height: 100vh;
+  width: 92.75vw;
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 34px;
+  letter-spacing: 1.5px;
+  line-height: 40px;
+
+  .rider_bio {
+    background: url('/img/img/riders_bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    // border: 1px solid red;
+    // height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+}
