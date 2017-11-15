@@ -9,14 +9,14 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
     $("#sound-off").show();
   });
 
-  $("#pageload").delay(50).fadeOut("fast");
+  $("#pageload").delay(1000).fadeOut("fast");
   $("#main_wrapper").hide();
-  $("#main_wrapper").delay(50).fadeIn("slow");
+  $("#main_wrapper").delay(1000).fadeIn("slow");
 
 
-//   setTimeout(function(){
-//     $("#audio").get(0).play();
-// }, 7500);
+  setTimeout(function(){
+    $("#audio").get(0).play();
+}, 1500);
 
   $("#sound-off").on("click", function() {
     audio.play();
