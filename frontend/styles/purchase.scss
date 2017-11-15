@@ -1,0 +1,126 @@
+.main_purchase_wrapper {
+  background: url("/img/img/interstitial_bg_dark.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .purchase_content {
+    margin-top: 15%;
+    height: 60%;
+    margin-left: 60px;
+    // border: 1px solid yellow;
+    font-family: "bold";
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+    .purchase_title {
+      height: 10%;
+      // border: 1px solid red;
+      color: white;
+      display: flex;
+      align-items: center;
+      font-size: 42px;
+      font-family: "regular";
+    }
+
+    .purchase_options {
+      height: 80%;
+      // border: 2px solid orange;
+      display: flex;
+      // justify-content: center;
+      color: #da0d5a;
+
+      h3 {
+        margin-top: 25px;
+        font-size: 14px;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          height: 50px;
+          width: 150px;
+          margin-top: 10px;
+          margin-right: 10px;
+          border: 1px solid #da0d5a;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            height: 40px;
+            width: 100px;
+          }
+        }
+      }
+
+      .digital_download {
+        width: 30%;
+        // border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+
+        #digital_list {
+          padding-top: 33px;
+        }
+      }
+
+      .collector {
+        width: 30%;
+        // border: 2px solid green;
+        display: flex;
+        flex-direction: column;
+
+        .dvd_icons {
+          display: flex;
+          flex-direction: row;
+          margin-top: 5px;
+          // border: 1px solid blue;
+
+          img {
+            height: 25px;
+            width: 50px;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .limited_edition {
+        width: 30%;
+        // border: 2px solid green;
+        display: flex;
+        flex-direction: column;
+
+        #limited_list {
+          padding-top: 29px;
+        }
+      }
+    }
+
+    .purchase_exit {
+      color: white;
+      font-size: 12px;
+      height: 10%;
+      // border: 1px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .purchase_exit_btn {
+        border: 1px solid white;
+        height: 50px;
+        width: 180px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

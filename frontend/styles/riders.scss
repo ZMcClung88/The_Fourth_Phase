@@ -1,5 +1,5 @@
 .riders_wrapper {
-  background: url('/frontend/media/img/riders_bg.jpg') no-repeat center center fixed;
+  background: url('/img/img/riders_bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -170,6 +170,7 @@
     transition-timing-function: ease;
     height: 50px;
     width: 50px;
+    margin-top: 5px;
   }
 
   .main_content {

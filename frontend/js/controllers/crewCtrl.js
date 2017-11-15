@@ -13,6 +13,12 @@ angular.module('myApp').controller('crewCtrl', function($scope, mainSrvc) {
     $("#crew-wrapper").show();
   });
 
+  $("#menu-close").on("click", function() {
+    $("#crew-modal").hide();
+    $("#crew-header").show();
+    $("#crew-wrapper").show();
+  });
+
 
   $scope.getCrew = () => {
     mainSrvc.getCrew().then(response => {
