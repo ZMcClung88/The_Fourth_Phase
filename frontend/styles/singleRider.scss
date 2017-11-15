@@ -19,8 +19,7 @@
      display: flex;
      flex-direction: column;
      font-family: "bold";
-     // align-items: center;
-     // justify-content: center;
+
 
      .rider_info {
        // border: 1px solid green;
@@ -42,7 +41,92 @@
        }
 
        .follow_rider {
+         margin-top: 20%;
+         margin-left: 20%;
+         height: 400px;
          // border: 1px solid yellow;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         font-family: "regular";
+         text-transform: uppercase;
+         font-size: 13px;
+
+         .follow_rider_btn {
+           border-top: 1px solid white;
+           border-left: 1px solid white;
+           border-bottom: 1px solid white;
+           height: 38px;
+           width: 140px;
+           margin-bottom: 60px;
+           padding-top: 3px;
+           padding-left: 5px;
+           transform: rotate(90deg);
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           flex-direction: row;
+         }
+
+        .rider-btn {
+          height: 40px;
+          width: 40px;
+          border: 1px solid white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+       }
+     }
+   }
+   .footer_wrapper {
+     width: 48%;
+     // border: 1px solid yellow;
+     display: flex;
+     position: absolute;
+     margin-top: -80px;
+     margin-left: 50px;
+     color: lightgrey;
+     font-size: 12px;
+     font-family: "regular";
+     // flex-direction: row;
+
+     .links {
+       width: 100%;
+       display: flex;
+       // border: 1px solid green;
+       // flex-direction: row;
+
+       #sound-off {
+         display: none;
+       }
+
+       ul {
+         // border: 1px solid blue;
+         width: 20%;
+         margin-top: 20px;
+         display: flex;
+         position: fixed;
+         flex-direction: row;
+         justify-content: space-around;
+         align-items: center;
+
+
+         li {
+           // display: flex;
+           // flex-direction: row;
+           img {
+             height: 15px;
+             width: 15px;
+           }
+
+           a {
+             color: white;
+             text-decoration: none;
+           }
+         }
        }
      }
    }

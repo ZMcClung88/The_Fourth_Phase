@@ -22,14 +22,34 @@
     </div>
 
     <div class="rider_info">
+
       <div class="rider_name">
         <h1>{{rider.firstname}}</h1>
         <h1>{{rider.lastname}}</h1>
       </div>
-      <div class="follow_rider">
 
+      <div class="follow_rider">
+        <div class="follow_rider_btn">
+          <p><i class="fa fa-plus red" aria-hidden="true"></p>
+          <p>follow {{rider.firstname}}</p>
+        </div>
+        <i class="fa fa-facebook fa-2x rider-btn" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-2x rider-btn" aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-2x rider-btn" aria-hidden="true"></i>
       </div>
     </div>
 
   </div>
+
+  <div class="footer_wrapper">
+    <div class="links">
+      <ul id="footer-links">
+        <li><img src="/img/img/2000px-Speaker_Icon.svg.png" class="invert" id="sound-on" alt=""><img src="/img/img/2000px-Mute_Icon.svg.png" class="invert" id="sound-off" alt=""></li>
+        <li><a href="https://policies.redbull.com/policies/RedBull.com_US/201711020739/en/privacy.html">Your Privacy Rights</a></li>
+        <li><a href="https://policies.redbull.com/policies/RedBull.com_US/201711020739/en/terms.html">Terms of Use<a></li>
+      </ul>
+    </div>
+    <i class="fa fa-angle-down fa-5x invert" id="down-angle" aria-hidden="true"></i>
+  </div>
+
 </div>
