@@ -1,5 +1,4 @@
 angular.module("myApp").controller("ridersCtrl", function($scope, mainSrvc) {
-  $scope.rider = "Zac McClung aka Mc-clang-a-lang-tang";
 
   $("#riders_right_header").on("click", function() {
     console.log("clicky click!!!!");

@@ -14,5 +14,15 @@ angular.module("myApp").controller("singleRiderCtrl", function($scope, $statePar
 
   $scope.getDetails();
 
+  $("#single_riders_right_header").on("click", function(){
+    $("#single_rider_wrapper").hide();
+    $("#single-riders-menu-modal").show();
+  });
+
+  $("#menu-close").on("click", function() {
+    $("#single_rider_wrapper").show();
+    $("#single-riders-menu-modal").hide();
+  });
+
 
 })

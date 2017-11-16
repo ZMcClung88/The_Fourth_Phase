@@ -25,6 +25,7 @@ angular.module('myApp', ['ui.router']).config(function($stateProvider, $urlRoute
     })
     .state('purchase', {
       url: '/purchase',
-      templateUrl: '/views/purchase.html'
+      templateUrl: '/views/purchase.html',
+      contorller: 'purchaseCtrl'
     })
 })
