@@ -26,14 +26,12 @@
   }
 
   .riders_content {
-    // border: 2px solid blue;
     display: flex;
     flex-direction: row;
     margin-right: 100px;
     font-family: "bold";
 
     .riders-left {
-      // border: 1px solid green;
       width: 50%;
       height: 97vh;
       display: flex;
@@ -56,7 +54,6 @@
     }
 
     .riders-right {
-      // border: 1px solid orange;
       width: 50%;
       height: 99vh;
       overflow: scroll;
@@ -64,7 +61,6 @@
       .riders {
 
         li {
-          // border: 1px solid red;
           height: 160px;
           text-align: center;
           display: flex;
@@ -85,7 +81,6 @@
           }
 
           p {
-            // position: absolute;
             z-index: 1;
             margin-top: -90px;
             font-family: "condensed";

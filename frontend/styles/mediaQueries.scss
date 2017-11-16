@@ -8,7 +8,6 @@
 
     .left_header {
       width: 50%;
-      // border: 1px solid red;
 
       img {
         height: 20px;
@@ -31,15 +30,9 @@
 
   ////// SOCIAL DIRECTIVE ////////
   .social_wrapper {
-    // border: 1px solid green;
     padding-top: 300px;
 
-     .redbrain {
-      //  border: 1px solid yellow;
-     }
-
      .follow-share {
-      //  border: 1px solid yellow;
 
        .follow {
          height: 50px;
@@ -48,10 +41,6 @@
          .follow-button {
            width: 100px;
          }
-       }
-
-       .share {
-        //  border: 1px solid blue;
        }
      }
   }

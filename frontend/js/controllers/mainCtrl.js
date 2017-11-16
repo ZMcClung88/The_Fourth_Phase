@@ -1,44 +1,50 @@
 angular.module('myApp').controller('mainCtrl', function($scope) {
-  $scope.test = "controller test is working";
 
   let myAudio = document.getElementById("audio");
 
+  //////////////// PLAY AUDIO //////////////////
   $("#sound-on").on("click", function() {
     audio.pause();
     $(this).hide();
     $("#sound-off").show();
   });
 
+  //////////////// PAGELOAD EFFECTS //////////////////
   $("#pageload").delay(1000).fadeOut("fast");
   $("#main_wrapper").hide();
   $("#main_wrapper").delay(1000).fadeIn("slow");
 
-
+  //////////////// FADE IN AUDIO //////////////////
   setTimeout(function(){
     $("#audio").get(0).play();
-}, 1500);
+  }, 1500);
 
+  //////////////// PAUSE AUDIO //////////////////
   $("#sound-off").on("click", function() {
     audio.play();
     $(this).hide();
     $("#sound-on").show();
   })
 
+  //////////////// OPEN MENU MODAL //////////////////
   $("#right_header").on("click", function() {
     $("#main_wrapper").hide();
     $("#menu-modal").show();
   })
 
+  //////////////// CLOSE MENU MODAL //////////////////
   $("#menu-close").on("click", function() {
     $("#main_wrapper").show();
     $("#menu-modal").hide();
   })
 
+  //////////////// CLOSE MENU MODAL WITH HOME LINK //////////////////
   $("#home-btn").on("click", function() {
     $("#menu-modal").hide();
     $("#main_wrapper").show();
   })
 
+  //////////////// BUY BUTTON HOVER EFFECT //////////////////
   $("#buy-button").on('mouseover', function() {
     $(this).css({
       "background-color": "transparent",
@@ -51,6 +57,7 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
     $(this).css("border", "1px solid red");
   }),
 
+  //////////////// WATCH BUTTON HOVER EFFECT //////////////////
   $("#watch-button").on('mouseover', function() {
     console.log("here!");
     $(this).css("background-color", "red");
@@ -62,6 +69,7 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
     $(this).css("border", "1px solid white");
   }),
 
+  //////////////// OPEN MOVIE TRAILER MODAL //////////////////
   $('#watch-button').on('click', function(){
 
       audio.pause();
@@ -99,7 +107,7 @@ angular.module('myApp').controller('mainCtrl', function($scope) {
                       </iframe>\
                     </div> ')
 
-
+      //////////////// CLOSE MODAL AND RESUME AUDIO //////////////////
       $(overlay).on('click', function(){
         overlay.remove();
         audio.play();

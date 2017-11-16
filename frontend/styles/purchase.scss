@@ -12,14 +12,12 @@
     margin-top: 15%;
     height: 60%;
     margin-left: 60px;
-    // border: 1px solid yellow;
     font-family: "bold";
     text-transform: uppercase;
     letter-spacing: 1.5px;
 
     .purchase_title {
       height: 10%;
-      // border: 1px solid red;
       color: white;
       display: flex;
       align-items: center;
@@ -33,9 +31,7 @@
 
     .purchase_options {
       height: 80%;
-      // border: 2px solid orange;
       display: flex;
-      // justify-content: center;
       color: #da0d5a;
 
       h3 {
@@ -76,7 +72,6 @@
 
       .digital_download {
         width: 30%;
-        // border: 1px solid green;
         display: flex;
         flex-direction: column;
 
@@ -87,7 +82,6 @@
 
       .collector {
         width: 30%;
-        // border: 2px solid green;
         display: flex;
         flex-direction: column;
 
@@ -95,7 +89,6 @@
           display: flex;
           flex-direction: row;
           margin-top: 5px;
-          // border: 1px solid blue;
 
           img {
             height: 25px;
@@ -107,7 +100,6 @@
 
       .limited_edition {
         width: 30%;
-        // border: 2px solid green;
         display: flex;
         flex-direction: column;
 
@@ -121,7 +113,6 @@
       color: white;
       font-size: 12px;
       height: 10%;
-      // border: 1px solid white;
       display: flex;
       align-items: center;
       justify-content: flex-end;

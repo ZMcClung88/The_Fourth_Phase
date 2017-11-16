@@ -36,7 +36,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // border: 2px solid green;
     color: white;
     padding-top: 200px;
 
@@ -77,7 +76,6 @@ body {
 
   .footer_wrapper {
     width: 48%;
-    // border: 1px solid yellow;
     display: flex;
     position: absolute;
     margin-top: -80px;
@@ -85,20 +83,16 @@ body {
     color: lightgrey;
     font-size: 12px;
     font-family: "regular";
-    // flex-direction: row;
 
     .links {
       width: 100%;
       display: flex;
-      // border: 1px solid green;
-      // flex-direction: row;
 
       #sound-off {
         display: none;
       }
 
       ul {
-        // border: 1px solid blue;
         width: 20%;
         margin-top: 20px;
         display: flex;
@@ -109,8 +103,6 @@ body {
 
 
         li {
-          // display: flex;
-          // flex-direction: row;
           img {
             height: 15px;
             width: 15px;
@@ -126,12 +118,10 @@ body {
   }
 
   .team {
-    // border: 1px solid green;
     margin-top: -26px;
 
     .riders {
       font-family: "condensed";
-      // border: 1px solid yellow;
       height: 50vh;
       width: 100vw;
       display: flex;
@@ -147,7 +137,6 @@ body {
       img {
         height: 100px;
         width: 620px;
-        // border: 2px solid orange;
         margin-left: 175px;
       }
 
@@ -175,7 +164,6 @@ body {
     }
 
     .crew {
-      // border: 1px solid red;
       height: 50vh;
       width: 100vw;
       display: flex;
@@ -189,7 +177,6 @@ body {
       background-size: cover;
 
       img {
-        // border: 2px solid orange;
         height: 100px;
         width: 475px;
         margin-left: 300px;
@@ -250,7 +237,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // border: 2px solid green;
     color: white;
     padding-top: 200px;
     padding-bottom: 277px;
@@ -258,13 +244,11 @@ body {
 
     ul {
       width: 300px;
-      // border: 1px solid yellow;
       letter-spacing: 3px;
 
 
       li {
         width: 100%;
-        // border: 1px solid red;
         margin-top: 10px;
         line-height: 50px;
       }
@@ -275,7 +259,6 @@ body {
 
   .footer_wrapper {
     width: 50%;
-    // border: 1px solid yellow;
     display: flex;
     position: absolute;
     margin-top: -40px;
@@ -283,19 +266,16 @@ body {
     color: lightgrey;
     font-size: 12px;
     font-family: "regular";
-    // flex-direction: row;
 
     .links {
       width: 100%;
       display: flex;
-      // flex-direction: row;
 
       #sound-off {
         display: none;
       }
 
       ul {
-        // border: 1px solid green;
         width: 45%;
         display: flex;
         flex-direction: row;
@@ -304,8 +284,6 @@ body {
 
 
         li {
-          // display: flex;
-          // flex-direction: row;
           img {
             height: 15px;
             width: 15px;
