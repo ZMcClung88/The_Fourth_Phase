@@ -7,3 +7,12 @@ TO SEE IN ACTION:
 2. npm install
 3. type/run nodemon in terminal
 4. visit localhost:8080/#/ in your browser
+
+![fourth_phase_riders](https://user-images.githubusercontent.com/14044898/39739097-52a4fbde-524c-11e8-9a69-235d1579492d.png)
+
+-
+-
+-
+-
+
+![fourth_phase_riders](https://user-images.githubusercontent.com/14044898/39739097-52a4fbde-524c-11e8-9a69-235d1579492d.png)
