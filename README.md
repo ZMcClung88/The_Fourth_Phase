@@ -10,9 +10,4 @@ TO SEE IN ACTION:
 
 ![fourth_phase_riders](https://user-images.githubusercontent.com/14044898/39739097-52a4fbde-524c-11e8-9a69-235d1579492d.png)
 
--
--
--
--
-
-![fourth_phase_riders](https://user-images.githubusercontent.com/14044898/39739097-52a4fbde-524c-11e8-9a69-235d1579492d.png)
+![fourth_phase_single_rider](https://user-images.githubusercontent.com/14044898/39739099-53db624a-524c-11e8-8a40-c6609e5de9f6.png)
